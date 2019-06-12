@@ -7,7 +7,7 @@ test('Should ignore chars in another case', () => {
     .toBe(0);
 });
 
-test('Should ignore another symbols', () => {
+test('Should ignore special symbols', () => {
   expect(calculate('z123!_', 'ZZZ!ZZZ123_1'))
     .toBe(0);
 });
