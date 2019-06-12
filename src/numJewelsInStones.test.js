@@ -36,8 +36,3 @@ test('Should return zero for empty strings jewels and stones', () => {
   expect(calculate('', ''))
     .toBe(0);
 });
-
-test('Should not return zero for empty string jewels and stones', () => {
-  expect(calculate('', ''))
-    .toBe(0);
-});
