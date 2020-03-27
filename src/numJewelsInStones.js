@@ -1,14 +1,11 @@
 'use strict';
 
 /**
- * You're given strings JEWELS representing the types of stones that are jewels,
- * and STONES representing the stones you have. Each character in STONES is
- * a type of stone you have. You want to know how many of the stones you have
- * are also jewels.
+ * You're given 2 strings:
+ *  - jewels - representing the types of stones that are jewels,
+ *  - stones - representing all the stones you have.
  *
- * The letters in JEWELS are guaranteed distinct, and all characters
- * in JEWELS and STONES are letters. Letters are case sensitive, so "a" is
- * considered a different type of stone from "A".
+ * You want to know how many of the stones you have are also jewels.
  *
  * Example 1:
  * Input: jewels = "aA", stones = "aAAbbbb"
@@ -18,9 +15,10 @@
  * Input: jewels = "z", stones = "ZZ"
  * Output: 0
  *
- * Note:
- * STONES and JEWELS will consist of letters and have length at most 50.
- * The characters in JEWELS are distinct.
+ * Notes:
+ *  - stones and jewels will contain only letters and have length at most 50.
+ *  - The characters in jewels are unique.
+ *  - "a" is considered a different type of stone from "A"
  *
  * @param {string} jewels
  * @param {string} stones
